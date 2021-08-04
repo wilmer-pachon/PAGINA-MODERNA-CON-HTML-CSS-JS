@@ -1,0 +1,11 @@
+Boxicon para iconos:
+https://boxicons.com/
+
+Unplash para imagenes:
+https://unsplash.com/
+
+Manypixels para ilustraciones:
+https://www.manypixels.co/gallery
+
+WebGradients para estilos y colores en css:
+https://webgradients.com/

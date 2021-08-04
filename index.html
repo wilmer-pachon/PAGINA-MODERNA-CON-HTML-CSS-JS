@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web</title>
+    <link rel="stylesheet" href="/CSS/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="IMG/Hamburguesa.svg" alt="" class="hamburguer">
+        <!-- menu de navegacion-->
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Servicio</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#expertos">Expertos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <!-- fin menu de navegacion-->
+        <!--cabezera de inicio-->
+        <div class="contenedor head">
+            <h1 class="titulo">Convertimos tus sueños en realidad</h1>
+            <p class="copy">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        </div>
+        <!-- fin cabezera de inicio-->
+    </header>
+    <!-- contenido principal -->
+    <main>
+        <section class="contenedor" id="servicio">
+            <h2 class="subtitulo">Nuestro servicio</h2>
+            <div class="contenedor-servicio">
+                <img src="IMG/Sending emails_Isometric.svg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Diseño web</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Voluptatem nisi iure, suscipit velit corrupti minima! Mollitia, 
+                        cupiditate debitis? Similique, placeat?</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Diseño web</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Voluptatem nisi iure, suscipit velit corrupti minima! Mollitia, 
+                        cupiditate debitis? Similique, placeat?</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Diseño web</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Voluptatem nisi iure, suscipit velit corrupti minima! Mollitia, 
+                        cupiditate debitis? Similique, placeat?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- galeria -->
+        <section class="gallery" id="portafolio">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="IMG/uno.jpg" alt="" class="img-galeria">
+                    <img src="IMG/dos.jpg" alt=""  class="img-galeria">
+                    <img src="IMG/tres.jpg" alt=""  class="img-galeria">
+                    <img src="IMG/cuatro.jpg" alt=""  class="img-galeria">
+                    <img src="IMG/cinco.jpg" alt=""  class="img-galeria">
+                    <img src="IMG/seis.jpg" alt=""  class="img-galeria">
+                </div>
+            </div>
+        </section>
+        <!-- fin galeria-->
+        <!--- imagen light box-->
+        <section class="imagen-light">
+            <img src="IMG/Close.svg" alt="" class="close">
+            <img src="IMG/siete.jpg" width="1300" alt="" class="agregar-imagen">
+        </section>
+        <!-- fin imagen light box-->
+        <!-- seccion expertos en-->
+        <section class="centenedor" id="expertos">
+            <h2 class="subtitulo">Expertos en:</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="IMG/Analytics.svg" alt="">
+                    <h3 class="n-expert">Analitycs</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="IMG/SEO.svg" alt="">
+                    <h3 class="n-expert">SEO</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="IMG/Security.svg" alt="">
+                    <h3 class="n-expert">Security</h3>
+                </div>
+            </section>
+        </section>
+        <!-- fin seccion expertos en-->
+    </main>
+    <!-- fin contenido principal-->
+    <!-- pie de pagina-->
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Wilmer company</h2>
+                <p>Somos expertos en la creacion de tus sueños</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <!-- fin pie de pagina-->
+
+    <script src="/JS/menu.js"></script>
+    <script src="/JS/lightbox.js"></script>
+</body>
+</html>
